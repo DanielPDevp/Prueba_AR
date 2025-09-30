@@ -1,0 +1,274 @@
+/* header */
+
+.card_general {
+    border-radius: 20px !important;
+    box-shadow: 0px 0px 9px 1px rgba(150, 150, 150, 0.75);
+    -webkit-box-shadow: 0px 0px 9px 1px rgba(150, 150, 150, 0.75);
+    -moz-box-shadow: 0px 0px 9px 1px rgba(150, 150, 150, 0.75);
+}
+
+.menu_boton {
+    background-color: #ffffff !important;
+    border-radius: 15px;
+    border: 1px solid #bdbdbd !important;
+    width: 20%;
+    box-shadow: 0px 0px 9px 1px rgba(150, 150, 150, 0.75);
+    -webkit-box-shadow: 0px 0px 9px 1px rgba(150, 150, 150, 0.75);
+    -moz-box-shadow: 0px 0px 9px 1px rgba(150, 150, 150, 0.75);
+}
+/*modo oscuro  */
+  body.dark-mode {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+body.dark-mode .card {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+}
+
+body.dark-mode .nav-link {
+  color: #f5f5f5 !important;
+}
+
+
+/* Logo principal */
+.imagen_texto_logo {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 0 !important;
+    /* quitar margen fijo en móvil */
+}
+
+/* Imágenes dentro de tarjetas */
+.imagen_salud {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+.texto_drogeria {
+    margin: 0 2% 2% 2%;
+}
+.contenedor_logo_datos_contacto{
+    display: flex;
+    justify-content: center;
+    margin: 2% 0 2% 0;
+}
+
+/* Logo contacto */
+.contenedor_logo_datos_contacto img {
+    width: 110px;
+    max-width: 150px;
+    height: 110px;
+    border: solid 1px #a1a1a1;
+    border-radius: 100px;
+}
+
+.imagen_salud {
+    width: 150px;
+    max-width: 150px;
+    height: 100px;
+}
+
+.boton_disabled,
+.contenedor_boton .boton_servicios {
+    width: 100%;
+    /* ocupa todo el contenedor en móvil */
+    max-width: 150px;
+    /* opcional para escritorio */
+    padding: 8px 0;
+    margin: 5px 0;
+    /* separación entre botones */
+    border-radius: 20px;
+    background-color: #c0edff;
+    border: solid 1px #90e0ff;
+}
+
+.boton_evniar_datos {
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: #c0edff;
+    border: solid 1px #90e0ff;
+}
+
+.card_medicamentos {
+    flex-direction: column;
+    /* tarjetas apiladas en móvil */
+    align-items: center;
+}
+
+.carousel {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  }
+
+  .carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+  }
+
+  .carousel img.active {
+    display: block;
+  }
+
+  .controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+
+  .controls button {
+    background: rgba(255, 255, 255, 0.5);
+    color: #000000;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+
+.carousel_salud {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  }
+
+  .carousel_salud img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+  }
+
+  .carousel_salud img.active {
+    display: block;
+  }
+
+  .controls_salud {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+
+  .controls_salud button {
+    background: rgba(255, 255, 255, 0.5);
+    color: #000000;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+
+  .carousel_medicamento {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  }
+
+  .carousel_medicamento img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+  }
+
+  .carousel_medicamento img.active {
+    display: block;
+  }
+
+  .controls_medicamento {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+
+  .controls_medicamento button {
+    background: rgba(255, 255, 255, 0.5);
+    color: #000000;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+
+
+
+
+
+.hamburger {
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+    /* Oculto en escritorio */
+}
+
+.hamburger {
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+    /* Oculto en escritorio */
+}
+
+
+@media (max-width: 768px) {
+
+    .main__izquierdo,
+    .main__derecho {
+        margin: 10px 0;
+        border-radius: 15px;
+    }
+
+    .row.m-5 {
+        margin: 10px !important;
+    }
+
+    .menu_boton {
+        width: 90% !important;
+        margin: 5px 0;
+    }
+
+
+
+    .hamburger {
+        display: block;
+    }
+
+    nav {
+        display: none;
+        /* por defecto se oculta, se activa con JS */
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav.show {
+        display: flex;
+    }
+}
+
+footer {
+    margin: 0 3% 0 3%;
+}
