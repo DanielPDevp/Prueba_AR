@@ -29,7 +29,7 @@ La página presenta los servicios principales (Medicamentos, Salud y Servicios),
 
 ---
 
-## 🚀 Cómo ejecutar el proyecto
+##  Cómo ejecutar el proyecto
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/usuario/drogueria-landing.git
@@ -39,14 +39,14 @@ La página presenta los servicios principales (Medicamentos, Salud y Servicios),
 
 ---
 
-## 👨‍💻 Autor
+##  Autor
 - **Oscar Daniel Pérez Pérez**  
-📱 Cel: 316-467-8564  
-📧 Email: pd3582896@gmail.com  
-💻 GitHub: [DanielPDevp](https://github.com/DanielPDevp)  
+ Cel: 316-467-8564  
+ Email: pd3582896@gmail.com  
+ GitHub: [DanielPDevp](https://github.com/DanielPDevp)  
 
 ---
 
-## ⚖️ Licencia
+##  Licencia
 Este proyecto se desarrolla con fines académicos y de práctica.  
 Se reservan los derechos de desarrollo.
