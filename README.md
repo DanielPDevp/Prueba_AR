@@ -17,7 +17,7 @@ La página presenta los servicios principales (Medicamentos, Salud y Servicios),
 ---
 
 ##  Capturas de pantalla
-
+GIT
 ###  Pantalla principal
 ![Pantalla principal](./img/captura1.png)
 
